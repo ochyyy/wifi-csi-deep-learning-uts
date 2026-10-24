@@ -1,0 +1,14 @@
+model,tahap,seed,epoch,val_accuracy,val_macro_f1
+LSTM_noise003_fixedseed2026,tuning,2026,18,0.2607,0.2349
+LSTM_noise003,tuning,42,14,0.2419,0.2302
+LSTM_baseline_fixedseed2026,tuning,2026,12,0.23929999999999998,0.2192
+LSTM_noise003_fixedseed123,tuning,123,14,0.23929999999999998,0.2121
+LSTM_dropout050,tuning,42,21,0.2206,0.2087
+CNN_LSTM_amp_sample_norm,awal,42,8,0.21050000000000002,0.2023
+LSTM_baseline_fixedseed123,tuning,123,7,0.2231,0.19899999999999998
+LSTM_wd001,tuning,42,8,0.20800000000000002,0.1916
+CNN_ampnorm_fair,tuning,42,7,0.20550000000000002,0.1793
+CNN_LSTM_amp_only,awal,42,3,0.1241,0.0868
+CNN_LSTM,awal,42,12,0.1266,0.08109999999999999
+1D_CNN,awal,42,18,0.11779999999999999,0.0664
+1D_CNN_amp_only,awal,42,5,0.0727,0.0384

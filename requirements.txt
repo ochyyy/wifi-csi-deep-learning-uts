@@ -1,0 +1,8 @@
+# Dependensi utama (Python 3.10+). Google Colab umumnya sudah menyediakan sebagian besar.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+torch>=2.3
+matplotlib>=3.7
+tqdm>=4.66
